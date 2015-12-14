@@ -1,6 +1,7 @@
 import com.j256.ormlite.field.DatabaseField
 import com.j256.ormlite.table.DatabaseTable
 
+//pomidor do bazy
 @DatabaseTable(tableName = "tomato")
 class Tomato(_userId: Int, _startDate: String){
 
