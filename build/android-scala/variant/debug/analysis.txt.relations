@@ -1,0 +1,51 @@
+products:
+   build/generated/source/buildConfig/debug/scaloid/example/BuildConfig.java -> build/intermediates/classes/debug/scaloid/example/BuildConfig.class
+   build/generated/source/r/debug/scaloid/example/R.java -> build/intermediates/classes/debug/scaloid/example/R$attr.class
+   build/generated/source/r/debug/scaloid/example/R.java -> build/intermediates/classes/debug/scaloid/example/R$string.class
+   build/generated/source/r/debug/scaloid/example/R.java -> build/intermediates/classes/debug/scaloid/example/R.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anon$2$$anonfun$6.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anon$2$$anonfun$7.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anon$2.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anonfun$1$$anonfun$applyOrElse$1.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anonfun$1.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anonfun$10.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anonfun$11.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anonfun$3.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anonfun$4.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anonfun$5.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anonfun$8.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1$$anonfun$9.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2$$anon$1.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid$$anonfun$2.class
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/intermediates/classes/debug/scaloid/example/HelloScaloid.class
+binary dependencies:
+   build/generated/source/buildConfig/debug/scaloid/example/BuildConfig.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   build/generated/source/r/debug/scaloid/example/R.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   src/main/scala/scaloid/example/HelloScaloid.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/scala/scaloid/example/HelloScaloid.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
+   src/main/scala/scaloid/example/HelloScaloid.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
+source dependencies:
+   build/generated/source/buildConfig/debug/scaloid/example/BuildConfig.java -> build/generated/source/buildConfig/debug/scaloid/example/BuildConfig.java
+   build/generated/source/r/debug/scaloid/example/R.java -> build/generated/source/r/debug/scaloid/example/R.java
+   src/main/scala/scaloid/example/HelloScaloid.scala -> build/generated/source/r/debug/scaloid/example/R.java
+external dependencies:
+class names:
+   build/generated/source/buildConfig/debug/scaloid/example/BuildConfig.java -> scaloid.example.BuildConfig
+   build/generated/source/r/debug/scaloid/example/R.java -> scaloid.example.R
+   build/generated/source/r/debug/scaloid/example/R.java -> scaloid.example.R$attr
+   build/generated/source/r/debug/scaloid/example/R.java -> scaloid.example.R$string
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anon$2
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anon$2$$anonfun$6
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anon$2$$anonfun$7
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anonfun$1
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anonfun$1$$anonfun$applyOrElse$1
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anonfun$10
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anonfun$11
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anonfun$3
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anonfun$4
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anonfun$5
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anonfun$8
+   src/main/scala/scaloid/example/HelloScaloid.scala -> scaloid.example.HelloScaloid$$anonfun$2$$anon$1$$anonfun$9

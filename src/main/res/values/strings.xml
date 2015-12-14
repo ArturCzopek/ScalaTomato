@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="red">Red alert!</string>
+	<string name="app_name">[Czopek/Onieszczuk] Tomato technique</string>
+	<string name="login_user_name_text_view">Login</string>
+	<string name="login_password_text_view">Password</string>
+	<string name="register_button_text_view">Register</string>
+	<string name="login_button_text_view">Login</string>
+</resources>
