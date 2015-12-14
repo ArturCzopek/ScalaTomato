@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="scaloid.example.test">
+    package="czopekonieszczuk.scalatomato.test">
 
     <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="16" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="scaloid.example"
+                     android:targetPackage="czopekonieszczuk.scalatomato"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for scaloid.example"/>
+                     android:label="Tests for czopekonieszczuk.scalatomato"/>
 </manifest>
