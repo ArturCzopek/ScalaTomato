@@ -1,9 +1,9 @@
 products:
-   build/generated/source/buildConfig/androidTest/debug/scaloid/example/test/BuildConfig.java -> build/intermediates/classes/androidTest/debug/scaloid/example/test/BuildConfig.class
+   build/generated/source/buildConfig/androidTest/debug/czopekonieszczuk/scalatomato/test/BuildConfig.java -> build/intermediates/classes/androidTest/debug/czopekonieszczuk/scalatomato/test/BuildConfig.class
 binary dependencies:
-   build/generated/source/buildConfig/androidTest/debug/scaloid/example/test/BuildConfig.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   build/generated/source/buildConfig/androidTest/debug/czopekonieszczuk/scalatomato/test/BuildConfig.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
 source dependencies:
-   build/generated/source/buildConfig/androidTest/debug/scaloid/example/test/BuildConfig.java -> build/generated/source/buildConfig/androidTest/debug/scaloid/example/test/BuildConfig.java
+   build/generated/source/buildConfig/androidTest/debug/czopekonieszczuk/scalatomato/test/BuildConfig.java -> build/generated/source/buildConfig/androidTest/debug/czopekonieszczuk/scalatomato/test/BuildConfig.java
 external dependencies:
 class names:
-   build/generated/source/buildConfig/androidTest/debug/scaloid/example/test/BuildConfig.java -> scaloid.example.test.BuildConfig
+   build/generated/source/buildConfig/androidTest/debug/czopekonieszczuk/scalatomato/test/BuildConfig.java -> czopekonieszczuk.scalatomato.test.BuildConfig

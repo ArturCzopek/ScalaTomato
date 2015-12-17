@@ -1,3 +1,9 @@
 # view AndroidManifest.xml #generated:12
 -keep class czopekonieszczuk.scalatomato.activities.LoginActivity { <init>(...); }
 
+# view AndroidManifest.xml #generated:21
+-keep class czopekonieszczuk.scalatomato.activities.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class czopekonieszczuk.scalatomato.activities.UserActivity { <init>(...); }
+

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:2:1-15:12
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:2:1-19:12
 	xmlns:android
 		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifes
 		INJECTED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml
 		INJECTED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml
 application
-ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:6:5-14:19
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:6:5-18:19
 	android:label
 		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:6:18-50
 activity#czopekonieszczuk.scalatomato.activities.LoginActivity
@@ -33,6 +33,18 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:11:17-77
 	android:name
 		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:11:27-74
+activity#czopekonieszczuk.scalatomato.activities.RegisterActivity
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:14:9-15:53
+	android:label
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:15:13-50
+	android:name
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:14:19-62
+activity#czopekonieszczuk.scalatomato.activities.UserActivity
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:16:9-17:43
+	android:label
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:17:13-41
+	android:name
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:16:19-58
 uses-sdk
 INJECTED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml reason: use-sdk injection requested
 	android:targetSdkVersion

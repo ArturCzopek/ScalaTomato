@@ -18,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="czopekonieszczuk.scalatomato.activities.RegisterActivity"
+            android:label="@string/register_text" />
+        <activity
+            android:name="czopekonieszczuk.scalatomato.activities.UserActivity"
+            android:label="User Actions" />
     </application>
 
 </manifest>
