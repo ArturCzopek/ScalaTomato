@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--activities names-->
+
     <string name="app_name">TomatoApp</string>
+    <string name="user_tomatoes_activity_name">User Tomatoes</string>
+    <string name="user_activity_name">User Actions</string>
+    <string name="today_tomatoes_activity_name">Today Tomatoes</string>
+
+    <!--fields-->
+
     <string name="login_text">Login</string>
     <string name="password_text">Password</string>
     <string name="register_text">Register</string>
     <string name="failed">Login Failed</string>
     <string name="login_failed_text">Sorry, user does not exist or password is wrong.</string>
-    <string name="user_tomatoes_activity_name">User Tomatoes</string>
-    <string name="user_activity_name">User Actions</string>
     <string name="tomatoes">Tomatoes</string>
     <string name="amount_of_tomatoes">Amount of tomatoes</string>
+
 </resources>

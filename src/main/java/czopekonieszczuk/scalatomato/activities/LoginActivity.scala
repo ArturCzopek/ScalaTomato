@@ -14,13 +14,13 @@ class LoginActivity extends SActivity {
       val LoginEditText = SEditText().<<.marginBottom(20 dip).>>
       val PasswordTextView = STextView(R.string.password_text).<<.marginBottom(20 dip).>>
       val PasswordEditText = SEditText().<<.marginBottom(20 dip).>> inputType TEXT_PASSWORD
-      Log.d("EditViews and TextViews", "Created")
+      Log.d("LoginActivity", "Created TextViews and EditTexts")
       this += new SLinearLayout {
         SButton(R.string.login_text).<<.Weight(1.0f).>>.onClick(loginUserToApp(LoginEditText.getText.toString, PasswordEditText.getText.toString))
         SButton(R.string.register_text).<<.Weight(1.0f).>>.onClick(startRegisterActivity())
       }
       val testButton = SButton("For tests").onClick(testButtonOnClick)
-      Log.d("Buttons", "Created")
+      Log.d("LoginActivity", "Created buttons")
     }.padding(20.dip)
 
     def testButtonOnClick {
@@ -37,20 +37,20 @@ class LoginActivity extends SActivity {
         new AlertDialogBuilder(R.string.failed, R.string.login_failed_text) {
           neutralButton()
         }.show()
-        Log.d("AlertDialogBuilder", "Not found user showed")
+        Log.d("LoginActivity", "showed Alert, not found user")
       } else {
-        Log.d("userId", "Login userId "+userId)
+        Log.d("LoginActivity", "Logged userId: "+userId.toString)
         val intent = SIntent[UserActivity]
-        Log.d("put UserId to intent", "userId " +userId.toString )
+        Log.d("LoginActivity", "Put to intent userId: " +userId.toString )
         startActivity(intent)
-        Log.d("StartActivity", "UserActivity")
+        Log.d("LoginActivity", "start UserActivity")
       }
     }
 
     def startRegisterActivity() {
       val intent = SIntent[RegisterActivity]
       startActivity(intent)
-      Log.d("StartActivity", "RegisterActivity")
+      Log.d("LoginActivity", "start RegisterActivity")
     }
   }
 }
