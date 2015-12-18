@@ -1,6 +1,6 @@
 package czopekonieszczuk.scalatomato.activities
 
-import android.content.Intent
+import android.util.Log
 import czopekonieszczuk.scalatomato.R
 import czopekonieszczuk.scalatomato.databases._
 import org.scaloid.common._
@@ -14,41 +14,43 @@ class LoginActivity extends SActivity {
       val LoginEditText = SEditText().<<.marginBottom(20 dip).>>
       val PasswordTextView = STextView(R.string.password_text).<<.marginBottom(20 dip).>>
       val PasswordEditText = SEditText().<<.marginBottom(20 dip).>> inputType TEXT_PASSWORD
+      Log.d("EditViews and TextViews", "Created")
       this += new SLinearLayout {
-        SButton(R.string.login_text).<<.Weight(1.0f).>>.onClick(testStartWithUser())
+        SButton(R.string.login_text).<<.Weight(1.0f).>>.onClick(loginUserToApp(LoginEditText.getText.toString, PasswordEditText.getText.toString))
         SButton(R.string.register_text).<<.Weight(1.0f).>>.onClick(startRegisterActivity())
       }
+      val testButton = SButton("For tests").onClick(testButtonOnClick)
+      Log.d("Buttons", "Created")
     }.padding(20.dip)
 
-    def myToast() {
-      longToast("Ssijcie")
+    def testButtonOnClick {
+      val user = new User("test", "123")
+      val udb = new UserDatabaseHelper(this)
+      udb.deleteUser(2)
+      longToast("Usunieto uzytkownika ")
     }
 
     def loginUserToApp(login: String, password: String) {
-      val userId: Long = UserRepository.logIn(getApplicationContext, login, password)
-      if(userId == 0) {
+      val udb = new UserDatabaseHelper(this)
+      val userId: Long = udb.loginUser(login, password)
+      if(userId == -1) {
         new AlertDialogBuilder(R.string.failed, R.string.login_failed_text) {
           neutralButton()
         }.show()
+        Log.d("AlertDialogBuilder", "Not found user showed")
       } else {
+        Log.d("userId", "Login userId "+userId)
         val intent = SIntent[UserActivity]
-        intent.putExtra("userId", userId)
+        Log.d("put UserId to intent", "userId " +userId.toString )
         startActivity(intent)
+        Log.d("StartActivity", "UserActivity")
       }
     }
-
-    def testStartWithUser() {
-      val user = new User("Ala", "123")
-      //UserRepository.addUser(getApplicationContext(), user)
-      val intent = SIntent[UserActivity]
-      intent.putExtra("ID", user.id)
-      startActivity(intent)
-    }
-
 
     def startRegisterActivity() {
       val intent = SIntent[RegisterActivity]
       startActivity(intent)
+      Log.d("StartActivity", "RegisterActivity")
     }
   }
 }

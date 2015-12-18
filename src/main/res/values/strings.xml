@@ -4,6 +4,6 @@
     <string name="login_text">Login</string>
     <string name="password_text">Password</string>
     <string name="register_text">Register</string>
-    <string name="failed">Failed</string>
+    <string name="failed">Login Failed</string>
     <string name="login_failed_text">Sorry, user does not exist or password is wrong.</string>
 </resources>

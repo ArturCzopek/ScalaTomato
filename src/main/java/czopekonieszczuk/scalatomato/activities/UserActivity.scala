@@ -1,13 +1,24 @@
 package czopekonieszczuk.scalatomato.activities
 
+import android.util.Log
 import org.scaloid.common._
 
 class UserActivity extends SActivity {
 
-  val userId = getIntent().getExtras.getInt("ID")
+
   onCreate {
     contentView = new SVerticalLayout {
-     STextView("UserActivity " + userId.toString())
+
+      var userId: Long = -1
+      Log.d("userId in UserActivity", userId.toString)
+      val extras = getIntent.getExtras
+      Log.d("getExtras", "from LoginActivity")
+      if(extras != null) {
+        userId = extras.getLong("userId")
+        Log.d("pozyskano longa", "lol")
+      }
+      //tu ponizej zrobisz pozyskiwanie uzytkownika, buttony id
+      STextView("Hello,  " + userId)
     }
   }
 }
