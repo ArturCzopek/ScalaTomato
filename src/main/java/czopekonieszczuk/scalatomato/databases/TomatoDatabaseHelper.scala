@@ -72,18 +72,13 @@ class TomatoDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "
       tomatoes.add(tomato)
     }
     tomatoes
-
   }
 
-  def loginUser(login: String, password: String): Long = {
-    var id = -1
+  def getAmountOfUserTomatoes(userId: Long): Long = {
     val db = getReadableDatabase
-    val cursor = db.rawQuery("select id from users where login='" + login + "' and password ='" +
-      password +
-      "'", null)
-    while (cursor.moveToNext()) {
-      id = cursor.getInt(0)
-    }
-    id
+    val cursor =db.rawQuery("Select COUNT(*) from tomatoes where userId=" +userId, null)
+    cursor.getLong(0)
   }
+
+
 }

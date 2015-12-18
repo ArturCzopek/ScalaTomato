@@ -7,7 +7,7 @@ import scala.beans.BeanProperty
 class Tomato(@BeanProperty var userId: Long) {
 
   val today = new Date()
-  val dateFormat = new SimpleDateFormat("yyyy/MM/dd")
+  val dateFormat = new SimpleDateFormat("yyyy/MM/dd hh:mm")
 
   @BeanProperty
   var id: Long = -1

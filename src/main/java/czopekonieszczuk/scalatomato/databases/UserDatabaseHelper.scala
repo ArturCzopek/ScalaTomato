@@ -7,7 +7,7 @@ class UserDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "us
 
   override def onCreate(db: SQLiteDatabase) {
     db.execSQL("create table users(" + "id integer primary key autoincrement," +
-      "login text not null," +
+      "login text unique not null," +
       "password text not null);" +
       "")
   }
@@ -44,7 +44,7 @@ class UserDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "us
     users
   }
 
-  def getUser(id: Long): User = {
+  def getUserById(id: Long): User = {
     val user = new User("","")
     val db = getReadableDatabase
     val columns = Array("id", "login", "password")

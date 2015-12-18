@@ -6,4 +6,8 @@
     <string name="register_text">Register</string>
     <string name="failed">Login Failed</string>
     <string name="login_failed_text">Sorry, user does not exist or password is wrong.</string>
+    <string name="user_tomatoes_activity_name">User Tomatoes</string>
+    <string name="user_activity_name">User Actions</string>
+    <string name="tomatoes">Tomatoes</string>
+    <string name="amount_of_tomatoes">Amount of tomatoes</string>
 </resources>
