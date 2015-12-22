@@ -6,19 +6,16 @@ import scala.beans.BeanProperty
 
 class Tomato(@BeanProperty var userId: Long) {
 
-  val today = new Date()
-  val dateFormat = new SimpleDateFormat("yyyy/MM/dd hh:mm")
-
   @BeanProperty
   var id: Long = -1
 
   @BeanProperty
-  var date: String = dateFormat.format(today)
+  var date: String = new SimpleDateFormat("yyyy/MM/dd hh:mm").format(new Date())
 
   def this(id: Long, userId: Long) {
     this(userId)
     this.id = id
-    this.date = dateFormat.format(today)
+//    this.date = new SimpleDateFormat("yyyy/MM/dd hh:mm").format(new Date())
   }
 
 }

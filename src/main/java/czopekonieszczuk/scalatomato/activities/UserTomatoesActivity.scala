@@ -4,6 +4,7 @@ import android.util.Log
 import czopekonieszczuk.scalatomato.R
 import czopekonieszczuk.scalatomato.databases._
 import org.scaloid.common._
+import scala.collection.JavaConversions._
 
 class UserTomatoesActivity extends SActivity {
 
@@ -23,9 +24,8 @@ class UserTomatoesActivity extends SActivity {
     val udb = new UserDatabaseHelper(this)
     val user: User = udb.getUserById(userId)
     Log.d("UserTomatoesActivity", "getUser, id: " + user.id.toString + ", name: " + user.login.toString)
-    val AmountOfUserTomatoes: Long = AmountOfTomatoes(userId)
-    val AmountOfTomatoesText = R.string.amount_of_tomatoes + ": " + AmountOfUserTomatoes.toString()
-    Log.d("UserTomatoesActivity", "Amount of user " + user.login + " tomatoes: " + AmountOfUserTomatoes.toString)
+    val AmountOfTomatoesText = R.string.amount_of_tomatoes + ": " + AmountOfTomatoes(userId).toString
+    Log.d("UserTomatoesActivity", "Amount of user " + user.login + " tomatoes: " + AmountOfTomatoes(userId).toString)
     val ListOfUserTomatoes: java.util.List[Tomato] = UserTomatoes(userId)
     Log.d("UserTomatoesActivity", "Size of list user + " + user.login + "tomatoes list: " + ListOfUserTomatoes.size.toString)
     var nr = 1
@@ -35,7 +35,7 @@ class UserTomatoesActivity extends SActivity {
       val AmountOfUserTomatoesTextView = STextView(AmountOfTomatoesText).textSize(20 dip).<<.marginBottom(20 dip).>>
       Log.d("UserTomatoesActivity", "Created two first textviews")
       val UserTomatoes = STextView("").textSize(15 dip)
-      for(tomato: Tomato <- ListOfUserTomatoes) {
+      for(tomato <- ListOfUserTomatoes) {
         Log.d("UserTomatoesActivity", "Tomato id: " + tomato.id.toString + ", userId: " + tomato.userId.toString +",userTomato: " + nr.toString+ ", date: " + tomato.date.toString)
         UserTomatoes.setText(UserTomatoes.getText +"\n" + nr.toString + " : " + tomato.date.toString)
         nr += 1

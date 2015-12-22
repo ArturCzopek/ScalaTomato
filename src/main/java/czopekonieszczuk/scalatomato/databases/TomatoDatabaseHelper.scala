@@ -1,5 +1,8 @@
 package czopekonieszczuk.scalatomato.databases
 
+import java.text.SimpleDateFormat
+import java.util.Date
+
 import android.content.{ContentValues, Context}
 import android.database.sqlite.{SQLiteDatabase, SQLiteOpenHelper}
 
@@ -76,7 +79,14 @@ class TomatoDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "
 
   def getAmountOfUserTomatoes(userId: Long): Long = {
     val db = getReadableDatabase
-    val cursor =db.rawQuery("Select COUNT(*) from tomatoes where userId=" +userId, null)
+    val cursor =db.rawQuery("Select COUNT(*) from tomatoes where userId= " +userId, null)
+    cursor.getLong(0)
+  }
+
+  def getAmountOfUserTodayTomatoes(userId: Long): Long = {
+    val db = getReadableDatabase
+    val date: String = new SimpleDateFormat("yyyy/MM/dd").format(new Date())
+    val cursor = db.rawQuery("Select COUNT (*) FROM tomatoes where userId = " +userId + " AND date LIKE " + date + "%", null)
     cursor.getLong(0)
   }
 

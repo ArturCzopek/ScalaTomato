@@ -4,6 +4,12 @@
 # view AndroidManifest.xml #generated:21
 -keep class czopekonieszczuk.scalatomato.activities.RegisterActivity { <init>(...); }
 
+# view AndroidManifest.xml #generated:30
+-keep class czopekonieszczuk.scalatomato.activities.TodayTomatoesActivity { <init>(...); }
+
 # view AndroidManifest.xml #generated:24
 -keep class czopekonieszczuk.scalatomato.activities.UserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class czopekonieszczuk.scalatomato.activities.UserTomatoesActivity { <init>(...); }
 
