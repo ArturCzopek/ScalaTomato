@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:2:1-19:12
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:2:1-23:12
 	xmlns:android
 		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifes
 		INJECTED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml
 		INJECTED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml
 application
-ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:6:5-18:19
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:6:5-22:19
 	android:label
 		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:6:18-50
 activity#czopekonieszczuk.scalatomato.activities.LoginActivity
@@ -40,11 +40,23 @@ ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifes
 	android:name
 		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:14:19-62
 activity#czopekonieszczuk.scalatomato.activities.UserActivity
-ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:16:9-17:43
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:16:9-17:57
 	android:label
-		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:17:13-41
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:17:13-55
 	android:name
 		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:16:19-58
+activity#czopekonieszczuk.scalatomato.activities.UserTomatoesActivity
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:18:9-19:66
+	android:label
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:19:13-64
+	android:name
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:18:19-66
+activity#czopekonieszczuk.scalatomato.activities.TodayTomatoesActivity
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:20:9-21:67
+	android:label
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:20:19-67
 uses-sdk
 INJECTED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml reason: use-sdk injection requested
 	android:targetSdkVersion

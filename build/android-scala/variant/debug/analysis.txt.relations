@@ -33,10 +33,21 @@ products:
    src/main/java/czopekonieszczuk/scalatomato/activities/RegisterActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/RegisterActivity$$anonfun$1$$anon$1.class
    src/main/java/czopekonieszczuk/scalatomato/activities/RegisterActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/RegisterActivity$$anonfun$1.class
    src/main/java/czopekonieszczuk/scalatomato/activities/RegisterActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/RegisterActivity.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/TomatoActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/TomatoActivity$$anonfun$1.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/TomatoActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/TomatoActivity.class
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserActivity$$anonfun$1$$anon$1$$anonfun$2.class
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserActivity$$anonfun$1$$anon$1.class
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserActivity$$anonfun$1.class
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserActivity.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$2.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$3.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$4.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$5.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$6.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$7.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity$$anonfun$1$$anon$1.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity$$anonfun$1.class
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.class
    src/main/java/czopekonieszczuk/scalatomato/databases/Tomato.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/databases/Tomato.class
    src/main/java/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.class
    src/main/java/czopekonieszczuk/scalatomato/databases/User.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/databases/User.class
@@ -44,25 +55,33 @@ products:
 binary dependencies:
    build/generated/source/buildConfig/debug/czopekonieszczuk/scalatomato/BuildConfig.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   src/main/java/czopekonieszczuk/scalatomato/activities/LoginActivity.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
-   src/main/java/czopekonieszczuk/scalatomato/activities/LoginActivity.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/LoginActivity.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/LoginActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/LoginActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/LoginActivity.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   src/main/java/czopekonieszczuk/scalatomato/activities/RegisterActivity.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/RegisterActivity.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
-   src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
-   src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/RegisterActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/TomatoActivity.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/TomatoActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/TomatoActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/TomatoActivity.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   src/main/java/czopekonieszczuk/scalatomato/databases/Tomato.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   src/main/java/czopekonieszczuk/scalatomato/databases/Tomato.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
    src/main/java/czopekonieszczuk/scalatomato/databases/Tomato.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   src/main/java/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
    src/main/java/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
+   src/main/java/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
    src/main/java/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   src/main/java/czopekonieszczuk/scalatomato/databases/User.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/java/czopekonieszczuk/scalatomato/databases/User.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
    src/main/java/czopekonieszczuk/scalatomato/databases/User.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala -> /home/czopo/ANDROID/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
    src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
+   src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
    src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
 source dependencies:
    build/generated/source/buildConfig/debug/czopekonieszczuk/scalatomato/BuildConfig.java -> build/generated/source/buildConfig/debug/czopekonieszczuk/scalatomato/BuildConfig.java
@@ -72,6 +91,12 @@ source dependencies:
    src/main/java/czopekonieszczuk/scalatomato/activities/LoginActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala
    src/main/java/czopekonieszczuk/scalatomato/activities/LoginActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/User.scala
    src/main/java/czopekonieszczuk/scalatomato/activities/LoginActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala
+   src/main/java/czopekonieszczuk/scalatomato/activities/TomatoActivity.scala -> build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/Tomato.scala
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.scala
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/User.scala
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala
    src/main/java/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/Tomato.scala
    src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/User.scala
 external dependencies:
@@ -110,10 +135,21 @@ class names:
    src/main/java/czopekonieszczuk/scalatomato/activities/RegisterActivity.scala -> czopekonieszczuk.scalatomato.activities.RegisterActivity$$anonfun$1
    src/main/java/czopekonieszczuk/scalatomato/activities/RegisterActivity.scala -> czopekonieszczuk.scalatomato.activities.RegisterActivity$$anonfun$1$$anon$1
    src/main/java/czopekonieszczuk/scalatomato/activities/RegisterActivity.scala -> czopekonieszczuk.scalatomato.activities.RegisterActivity$$anonfun$1$$anon$1$$anonfun$2
+   src/main/java/czopekonieszczuk/scalatomato/activities/TomatoActivity.scala -> czopekonieszczuk.scalatomato.activities.TomatoActivity
+   src/main/java/czopekonieszczuk/scalatomato/activities/TomatoActivity.scala -> czopekonieszczuk.scalatomato.activities.TomatoActivity$$anonfun$1
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> czopekonieszczuk.scalatomato.activities.UserActivity
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> czopekonieszczuk.scalatomato.activities.UserActivity$$anonfun$1
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> czopekonieszczuk.scalatomato.activities.UserActivity$$anonfun$1$$anon$1
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> czopekonieszczuk.scalatomato.activities.UserActivity$$anonfun$1$$anon$1$$anonfun$2
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> czopekonieszczuk.scalatomato.activities.UserTomatoesActivity
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> czopekonieszczuk.scalatomato.activities.UserTomatoesActivity$$anonfun$1
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> czopekonieszczuk.scalatomato.activities.UserTomatoesActivity$$anonfun$1$$anon$1
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> czopekonieszczuk.scalatomato.activities.UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$2
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> czopekonieszczuk.scalatomato.activities.UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$3
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> czopekonieszczuk.scalatomato.activities.UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$4
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> czopekonieszczuk.scalatomato.activities.UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$5
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> czopekonieszczuk.scalatomato.activities.UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$6
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> czopekonieszczuk.scalatomato.activities.UserTomatoesActivity$$anonfun$1$$anon$1$$anonfun$7
    src/main/java/czopekonieszczuk/scalatomato/databases/Tomato.scala -> czopekonieszczuk.scalatomato.databases.Tomato
    src/main/java/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.scala -> czopekonieszczuk.scalatomato.databases.TomatoDatabaseHelper
    src/main/java/czopekonieszczuk/scalatomato/databases/User.scala -> czopekonieszczuk.scalatomato.databases.User
