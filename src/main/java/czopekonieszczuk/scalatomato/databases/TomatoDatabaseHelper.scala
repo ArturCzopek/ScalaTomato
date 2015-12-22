@@ -86,9 +86,8 @@ class TomatoDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "
   def getAmountOfUserTodayTomatoes(userId: Long): Long = {
     val db = getReadableDatabase
     val date: String = new SimpleDateFormat("yyyy/MM/dd").format(new Date())
-    val cursor = db.rawQuery("Select COUNT (*) FROM tomatoes where userId = " +userId + " AND date LIKE " + date + "%", null)
+    val cursor = db.rawQuery("Select COUNT (*) FROM tomatoes where userId = " +userId + " AND date LIKE '" + date + "%'", null)
     cursor.getLong(0)
   }
-
 
 }

@@ -19,15 +19,31 @@ class LoginActivity extends SActivity {
         SButton(R.string.login_text).<<.Weight(1.0f).>>.onClick(loginUserToApp(LoginEditText.getText.toString, PasswordEditText.getText.toString))
         SButton(R.string.register_text).<<.Weight(1.0f).>>.onClick(startRegisterActivity())
       }
-      val testButton = SButton("For tests").onClick(testButtonOnClick)
+      //TEST BUTTONS
+      val testButton1 = SButton("Add test/123").onClick(testAddUser)
+      val testButton2 = SButton("Delete test/123").onClick(testDeleteUser)
+      val testButton3 = SButton("Tomato activity").onClick(testTomatoUser)
       Log.d("LoginActivity", "Created buttons")
     }.padding(20.dip)
 
-    def testButtonOnClick {
+    def testAddUser {
       val user = new User("test", "123")
       val udb = new UserDatabaseHelper(this)
-      udb.deleteUser(2)
-      longToast("Usunieto uzytkownika ")
+      udb.addUser(user)
+      longToast("Dodano uzytkownika ")
+    }
+
+    def testDeleteUser() {
+      val udb = new UserDatabaseHelper(this)
+      udb.deleteUser(1)
+      longToast("Usunieto uzytkownika")
+    }
+
+    def testTomatoUser() {
+      val userId: Long = 1
+      val intent = SIntent[TomatoActivity]
+      intent.putExtra("userId", userId)
+      startActivity(intent)
     }
 
     def loginUserToApp(login: String, password: String) {
@@ -41,6 +57,7 @@ class LoginActivity extends SActivity {
       } else {
         Log.d("LoginActivity", "Logged userId: "+userId.toString)
         val intent = SIntent[UserActivity]
+        intent.putExtra("userId", userId)
         Log.d("LoginActivity", "Put to intent userId: " +userId.toString )
         startActivity(intent)
         Log.d("LoginActivity", "start UserActivity")
