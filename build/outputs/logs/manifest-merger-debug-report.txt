@@ -51,12 +51,12 @@ ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifes
 		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:19:13-64
 	android:name
 		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:18:19-66
-activity#czopekonieszczuk.scalatomato.activities.TodayTomatoesActivity
-ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:20:9-21:67
+activity#czopekonieszczuk.scalatomato.activities.TomatoActivity
+ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:20:9-21:59
 	android:label
-		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:21:13-65
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:21:13-57
 	android:name
-		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:20:19-67
+		ADDED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:20:19-60
 uses-sdk
 INJECTED from /home/czopo/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml reason: use-sdk injection requested
 	android:targetSdkVersion
