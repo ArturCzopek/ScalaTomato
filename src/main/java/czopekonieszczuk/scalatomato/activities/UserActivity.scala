@@ -7,8 +7,8 @@ class UserActivity extends SActivity {
 
 
   onCreate {
-    contentView = new SVerticalLayout {
 
+    contentView = new SVerticalLayout {
       var userId: Long = -1
       Log.d("UserActivity", "Started userId: " + userId.toString)
       val extras = getIntent.getExtras
@@ -17,7 +17,7 @@ class UserActivity extends SActivity {
         userId = extras.getLong("userId")
         Log.d("UserActivity", "userId from LoginActivity: " + userId.toString)
       }
-      //tu ponizej zrobisz pozyskiwanie uzytkownika, buttony id
+      //tu ponizej zrobisz pozyskiwanie uzytkownika, buttony id, nie zapomnij o logach
       STextView("Hello,  " + userId)
     }
   }

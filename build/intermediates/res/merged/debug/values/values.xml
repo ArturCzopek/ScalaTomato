@@ -7,7 +7,7 @@
     <!-- From: file:/home/czopo/AndroidStudioProjects/ScalaTomato/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="amount_of_today_tomatoes">Today tomatoes</string>
-    <string name="amount_of_tomatoes">Tomatoes</string>
+    <string name="amount_of_tomatoes">You have</string>
     <string name="app_name">TomatoApp</string>
     <string name="failed">Login Failed</string>
     <string name="login_failed_text">Sorry, user does not exist or password is wrong.</string>

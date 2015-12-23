@@ -16,7 +16,7 @@
     <string name="failed">Login Failed</string>
     <string name="login_failed_text">Sorry, user does not exist or password is wrong.</string>
     <string name="tomatoes">Tomatoes</string>
-    <string name="amount_of_tomatoes">Tomatoes</string>
+    <string name="amount_of_tomatoes">You have</string>
     <string name="amount_of_today_tomatoes">Today tomatoes</string>
     <string name="start">Start</string>
 
