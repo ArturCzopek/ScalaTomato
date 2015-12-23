@@ -41,6 +41,7 @@ class UserDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "us
       user.setPassword(cursor.getString(2))
       users.add(user)
     }
+    cursor.close
     users
   }
 
@@ -56,6 +57,7 @@ class UserDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "us
       user.setLogin(cursor.getString(1))
       user.setPassword(cursor.getString(2))
     }
+    cursor.close
     user
   }
 
@@ -68,6 +70,7 @@ class UserDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "us
     while (cursor.moveToNext()) {
       id = cursor.getLong(0)
     }
+    cursor.close
     id
   }
 }
