@@ -28,8 +28,8 @@
             android:name="czopekonieszczuk.scalatomato.activities.UserTomatoesActivity"
             android:label="@string/user_tomatoes_activity_name" />
         <activity
-            android:name="czopekonieszczuk.scalatomato.activities.TodayTomatoesActivity"
-            android:label="@string/today_tomatoes_activity_name" />
+            android:name="czopekonieszczuk.scalatomato.activities.TomatoActivity"
+            android:label="@string/tomato_activity_name" />
     </application>
 
 </manifest>

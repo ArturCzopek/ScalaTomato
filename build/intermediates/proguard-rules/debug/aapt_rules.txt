@@ -5,7 +5,7 @@
 -keep class czopekonieszczuk.scalatomato.activities.RegisterActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:30
--keep class czopekonieszczuk.scalatomato.activities.TodayTomatoesActivity { <init>(...); }
+-keep class czopekonieszczuk.scalatomato.activities.TomatoActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:24
 -keep class czopekonieszczuk.scalatomato.activities.UserActivity { <init>(...); }

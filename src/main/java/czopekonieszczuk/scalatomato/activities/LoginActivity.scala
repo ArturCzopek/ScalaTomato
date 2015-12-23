@@ -29,8 +29,12 @@ class LoginActivity extends SActivity {
     def testAddUser {
       val user = new User("test", "123")
       val udb = new UserDatabaseHelper(this)
-      udb.addUser(user)
-      longToast("Dodano uzytkownika ")
+      try {
+        udb.addUser(user)
+      } catch {
+        case exist: android.database.sqlite.SQLiteConstraintException => toast("Uzytkownik istnieje!")
+      }
+      longToast("Dodano uzytkownika")
     }
 
     def testDeleteUser() {

@@ -6,14 +6,16 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/home/czopo/AndroidStudioProjects/ScalaTomato/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="amount_of_tomatoes">Amount of tomatoes</string>
+    <string name="amount_of_today_tomatoes">Today tomatoes</string>
+    <string name="amount_of_tomatoes">Tomatoes</string>
     <string name="app_name">TomatoApp</string>
     <string name="failed">Login Failed</string>
     <string name="login_failed_text">Sorry, user does not exist or password is wrong.</string>
     <string name="login_text">Login</string>
     <string name="password_text">Password</string>
     <string name="register_text">Register</string>
-    <string name="today_tomatoes_activity_name">Today Tomatoes</string>
+    <string name="start">Start</string>
+    <string name="tomato_activity_name">Tomato</string>
     <string name="tomatoes">Tomatoes</string>
     <string name="user_activity_name">User Actions</string>
     <string name="user_tomatoes_activity_name">User Tomatoes</string>

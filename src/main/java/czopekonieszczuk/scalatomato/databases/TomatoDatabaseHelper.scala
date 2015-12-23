@@ -44,6 +44,7 @@ class TomatoDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "
       tomato.setDate(cursor.getString(2))
       tomatoes.add(tomato)
     }
+    cursor.close
     tomatoes
   }
 
@@ -59,6 +60,7 @@ class TomatoDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "
       tomato.setUserId(cursor.getLong(1))
       tomato.setDate(cursor.getString(2))
     }
+    cursor.close
     tomato
   }
 
@@ -74,20 +76,27 @@ class TomatoDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "
       tomato.setDate(cursor.getString(2))
       tomatoes.add(tomato)
     }
+    cursor.close
     tomatoes
   }
 
-  def getAmountOfUserTomatoes(userId: Long): Long = {
+  def getAmountOfUserTomatoes(userId: Long): Int = {
     val db = getReadableDatabase
-    val cursor =db.rawQuery("Select COUNT(*) from tomatoes where userId= " +userId, null)
-    cursor.getLong(0)
+    val countQuery = "Select * FROM tomatoes where userId = " + userId.toString
+    val cursor = db.rawQuery(countQuery , null)
+    val amount: Int = cursor.getCount
+    cursor.close
+    amount
   }
 
-  def getAmountOfUserTodayTomatoes(userId: Long): Long = {
+  def getAmountOfUserTodayTomatoes(userId: Long): Int = {
     val db = getReadableDatabase
     val date: String = new SimpleDateFormat("yyyy/MM/dd").format(new Date())
-    val cursor = db.rawQuery("Select COUNT (*) FROM tomatoes where userId = " +userId + " AND date LIKE '" + date + "%'", null)
-    cursor.getLong(0)
+    val countQuery = "Select * FROM tomatoes where userId = " +userId.toString+ " and date LIKE '" + date +"%'"
+    val cursor = db.rawQuery(countQuery, null)
+    val amount: Int = cursor.getCount
+    cursor.close
+    amount
   }
 
 }

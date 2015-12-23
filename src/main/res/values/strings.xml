@@ -6,7 +6,7 @@
     <string name="app_name">TomatoApp</string>
     <string name="user_tomatoes_activity_name">User Tomatoes</string>
     <string name="user_activity_name">User Actions</string>
-    <string name="today_tomatoes_activity_name">Today Tomatoes</string>
+    <string name="tomato_activity_name">Tomato</string>
 
     <!--fields-->
 

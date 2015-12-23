@@ -9,6 +9,10 @@
     public protected *;
 }
 
+-keep class * extends android.os.AsyncTask {
+  *;
+}
+
 
 # this can be omitted if current Android Build target is android-16
--dontwarn org.scaloid.** 
+-dontwarn org.scaloid.**
