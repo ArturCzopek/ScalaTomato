@@ -57,7 +57,7 @@ class LoginActivity extends SActivity {
   }
 
   def testTomatoUser {
-    val userId: Long = 5
+    val userId: Long = 1
     val intent = SIntent[TomatoActivity]
     intent.putExtra("userId", userId)
     Log.d("LoginActivity.testTomatoUser", "Put to TomatoActivity intent userId: " +userId.toString)
@@ -66,7 +66,7 @@ class LoginActivity extends SActivity {
   }
 
   def testUserTomatoes {
-    val userId: Long = 5
+    val userId: Long = 1
     val intent = SIntent[UserTomatoesActivity]
     intent.putExtra("userId", userId)
     Log.d("LoginActivity.testUserTomatoes", "Put to TomatoActivity intent userId: " +userId.toString)
