@@ -25,53 +25,14 @@ class LoginActivity extends SActivity {
         }
 
         //TEST BUTTONS
-        val testButton1 = SButton("Add test/123").onClick(testAddUser)
-        val testButton2 = SButton("Delete test/123").onClick(testDeleteUser)
-        val testButton3 = SButton("Tomato activity").onClick(testTomatoUser)
-        val testButton4 = SButton("List tomatoes").onClick(testUserTomatoes)
-        Log.d("LoginActivity.onCreate", "Created test buttons")
+//        val testButton1 = SButton("Add test/123").onClick(testAddUser)
+//        val testButton2 = SButton("Delete test/123").onClick(testDeleteUser)
+//        val testButton3 = SButton("Tomato activity").onClick(testTomatoUser)
+//        val testButton4 = SButton("List tomatoes").onClick(testUserTomatoes)
+//        Log.d("LoginActivity.onCreate", "Created test buttons")
       }.padding(20.dip)
     }
 
-  }
-
-  def testAddUser {
-    val user = new User("test", "123")
-    val udb = new UserDatabaseHelper(this)
-    try {
-      udb.addUser(user)
-      Log.d("LoginActivity.testAddUser", "Added test user")
-    } catch {
-      case exist: android.database.sqlite.SQLiteConstraintException => toast("Uzytkownik istnieje!")
-    }
-  }
-
-  def testDeleteUser() {
-    val udb = new UserDatabaseHelper(this)
-    udb.deleteUser(4)
-    udb.deleteUser(3)
-    udb.deleteUser(2)
-    udb.deleteUser(1)
-    longToast("Usunieto uzytkownikow")
-    Log.d("LoginActivity.testDeleteUser", "Deleted test users")
-  }
-
-  def testTomatoUser {
-    val userId: Long = 1
-    val intent = SIntent[TomatoActivity]
-    intent.putExtra("userId", userId)
-    Log.d("LoginActivity.testTomatoUser", "Put to TomatoActivity intent userId: " +userId.toString)
-    startActivity(intent)
-    Log.d("LoginActivity.testTomatoUser", "Started TomatoActivity")
-  }
-
-  def testUserTomatoes {
-    val userId: Long = 1
-    val intent = SIntent[UserTomatoesActivity]
-    intent.putExtra("userId", userId)
-    Log.d("LoginActivity.testUserTomatoes", "Put to TomatoActivity intent userId: " +userId.toString)
-    startActivity(intent)
-    Log.d("LoginActivity.testUserTomatoes", "Started UserTomatoesActivity")
   }
 
   def loginUserToApp(login: String, password: String) {

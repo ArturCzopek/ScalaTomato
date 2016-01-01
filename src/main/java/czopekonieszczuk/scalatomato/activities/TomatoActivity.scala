@@ -1,5 +1,6 @@
 package czopekonieszczuk.scalatomato.activities
 
+import android.media.MediaPlayer
 import android.os.AsyncTask
 import android.util.Log
 import android.view.View
@@ -10,7 +11,8 @@ import org.scaloid.common._
 class TomatoActivity extends SActivity {
 
   var userId: Long = -1
-  var TOMATO_TIME: Int = 10 //25 * 60 domyslnie, testowo 10 sec
+  //  var TOMATO_TIME: Int = 10 //TEST
+  var TOMATO_TIME: Int = 25 * 60
   var timer: STextView = null
   var todayTomatoesTextView: STextView =  null
   var button: SButton = null
@@ -39,7 +41,7 @@ class TomatoActivity extends SActivity {
       minutes = (TOMATO_TIME/60).toString
       seconds = if (TOMATO_TIME % 60 < 10) "0"+(TOMATO_TIME % 60).toString else (TOMATO_TIME % 60).toString
       timer = STextView(minutes+":"+seconds).textSize(60 dip).padding(60 dip)
-      button = SButton(R.string.start).onClick(startTomato(userId))
+      button = SButton(R.string.start_tomato_button).onClick(startTomato(userId))
       Log.d("TomatoActivity.onCreate", "Created timerView and startButton")
       Log.d("TomatoActivity.onCreate", "Started value of timer: " +timer.getText.toString)
     }.padding(20 dip)
@@ -116,6 +118,9 @@ class TomatoActivity extends SActivity {
       todayTomatoesTextView.setText(R.string.amount_of_today_tomatoes)
       todayTomatoesTextView.setText(todayTomatoesTextView.getText+ ": " + amountOfTodayTomatoes(userId).toString)
       Log.d("TomatoStart.onPostExecute", "Refreshed textViews")
+      val mp = MediaPlayer.create(getApplicationContext, R.raw.sound)
+      mp.start
+      Log.d("TomatoStart.onPostExecute", "Started soud")
       Log.d("TomatoStart.onPostExecute", "Ended AsyncTask")
     }
   }

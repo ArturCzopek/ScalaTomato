@@ -37,7 +37,7 @@ class UserTomatoesActivity extends SActivity {
         val amountOfUserTomatoesTextView = STextView(R.string.amount_of_tomatoes).textSize(35 dip).<<.marginBottom(20 dip).>>
         amountOfUserTomatoesTextView.setText(amountOfUserTomatoesTextView.getText + " " + amountOfUserTomatoes.toString + " tomatoes:")
         Log.d("UserTomatoesActivity.onCreate", "Created two first textviews")
-        val userTomatoes = STextView("").textSize(30 dip)
+        val userTomatoes = STextView("").textSize(20 dip)
         for (tomato <- listOfUserTomatoes) {
           Log.d("UserTomatoesActivity.onCreate", "Tomato id: " + tomato.id.toString + ", userId: " + tomato.userId.toString + ", userTomato: " + nr.toString + ", date: " + tomato.date.toString)
           userTomatoes.setText(userTomatoes.getText + "\n" + nr.toString + " : " + tomato.date.toString)

@@ -9,12 +9,16 @@
     <string name="amount_of_today_tomatoes">Today tomatoes</string>
     <string name="amount_of_tomatoes">You have</string>
     <string name="app_name">TomatoApp</string>
+    <string name="clear">Clear</string>
+    <string name="done">Done</string>
     <string name="failed">Login Failed</string>
     <string name="login_failed_text">Sorry, user does not exist or password is wrong.</string>
     <string name="login_text">Login</string>
+    <string name="password2_text">Re-enter password</string>
     <string name="password_text">Password</string>
+    <string name="register_failed_text">Register failed - user already exist.</string>
     <string name="register_text">Register</string>
-    <string name="start">Start</string>
+    <string name="start_tomato_button">Start</string>
     <string name="tomato_activity_name">Tomato</string>
     <string name="tomatoes">Tomatoes</string>
     <string name="user_activity_name">User Actions</string>
