@@ -30,6 +30,9 @@
         <activity
             android:name="czopekonieszczuk.scalatomato.activities.TomatoActivity"
             android:label="@string/tomato_activity_name" />
+        <activity
+            android:name="czopekonieszczuk.scalatomato.activities.DataActivity"
+            android:label="User Data" />
     </application>
 
 </manifest>

@@ -109,12 +109,28 @@ class TomatoDatabaseHelper(context: Context) extends SQLiteOpenHelper(context, "
     } else {
       Log.d("TomatoDatabaseHelper.getUserTomatoes", "Cursor IS empty")
       val tomato = new Tomato(0,0)
-      tomato.date = "Not Found"
+      tomato.date = "Not found"
       tomatoes.add(tomato)
       Log.d("TomatoDatabaseHelper.getUserTomatoes", "Added 'Not Found' Tomato")
     }
     cursor.close
     tomatoes
+  }
+
+  def getUserLastTomato(userId: Long): String = {
+    var lastTomato = "Not found"
+    val db = getReadableDatabase
+    val countQuery = "SELECT date FROM tomatoes WHERE userId =" + userId.toString + " ORDER BY date DESC LIMIT 1"
+    val cursor = db.rawQuery(countQuery , null)
+    Log.d("TomatoDatabaseHelper.getUserLastTomato", "Executed query and created cursor")
+    if (cursor != null && cursor.moveToFirst) {
+      Log.d("TomatoDatabaseHelper.getUserLastTomato", "Cursor IS NOT empty")
+      lastTomato = cursor.getString(0)
+    } else {
+      Log.d("TomatoDatabaseHelper.getUserLastTomato", "Cursor IS empty")
+    }
+    Log.d("TomatoDatabaseHelper.getUserLastTomato", "Found last tomato: " + lastTomato)
+    lastTomato
   }
 
   def getAmountOfUserTomatoes(userId: Long): Int = {

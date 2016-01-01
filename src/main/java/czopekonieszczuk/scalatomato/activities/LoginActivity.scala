@@ -25,11 +25,11 @@ class LoginActivity extends SActivity {
         }
 
         //TEST BUTTONS
-        val testButton1 = SButton("Add test/123").onClick(testAddUser)
-        val testButton2 = SButton("Delete test/123").onClick(testDeleteUser)
-        val testButton3 = SButton("Tomato activity").onClick(testTomatoUser)
-        val testButton4 = SButton("List tomatoes").onClick(testUserTomatoes)
-        Log.d("LoginActivity.onCreate", "Created test buttons")
+//        val testButton1 = SButton("Add test/123").onClick(testAddUser)
+//        val testButton2 = SButton("Delete test/123").onClick(testDeleteUser)
+//        val testButton3 = SButton("Tomato activity").onClick(testTomatoUser)
+//        val testButton4 = SButton("List tomatoes").onClick(testUserTomatoes)
+//        Log.d("LoginActivity.onCreate", "Created test buttons")
       }.padding(20.dip)
     }
 
@@ -57,7 +57,7 @@ class LoginActivity extends SActivity {
   }
 
   def testTomatoUser {
-    val userId: Long = 1
+    val userId: Long = 5
     val intent = SIntent[TomatoActivity]
     intent.putExtra("userId", userId)
     Log.d("LoginActivity.testTomatoUser", "Put to TomatoActivity intent userId: " +userId.toString)
@@ -66,7 +66,7 @@ class LoginActivity extends SActivity {
   }
 
   def testUserTomatoes {
-    val userId: Long = 1
+    val userId: Long = 5
     val intent = SIntent[UserTomatoesActivity]
     intent.putExtra("userId", userId)
     Log.d("LoginActivity.testUserTomatoes", "Put to TomatoActivity intent userId: " +userId.toString)
