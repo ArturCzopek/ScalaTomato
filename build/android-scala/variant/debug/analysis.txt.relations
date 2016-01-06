@@ -1,11 +1,4 @@
 products:
-   build/generated/source/buildConfig/debug/czopekonieszczuk/scalatomato/BuildConfig.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/BuildConfig.class
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$attr.class
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$dimen.class
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$drawable.class
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$raw.class
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$string.class
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R.class
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/DataActivity$$anonfun$1$$anon$1$$anonfun$10.class
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/DataActivity$$anonfun$1$$anon$1$$anonfun$11.class
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/activities/DataActivity$$anonfun$1$$anon$1$$anonfun$12.class
@@ -103,8 +96,6 @@ products:
    src/main/java/czopekonieszczuk/scalatomato/databases/User.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/databases/User.class
    src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.class
 binary dependencies:
-   build/generated/source/buildConfig/debug/czopekonieszczuk/scalatomato/BuildConfig.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
@@ -124,6 +115,7 @@ binary dependencies:
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scaloid/scaloid_2.11/4.0/42a9ff14dc637f249beaadacfa39b1c499c6f824/scaloid_2.11-4.0.jar
+   src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.class
    src/main/java/czopekonieszczuk/scalatomato/activities/UserActivity.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> /home/czopo/Android/Sdk/platforms/android-16/android.jar
    src/main/java/czopekonieszczuk/scalatomato/activities/UserTomatoesActivity.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
@@ -140,9 +132,6 @@ binary dependencies:
    src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala -> /home/czopo/Android/android-studio/gradle/gradle-2.4/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
    src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
 source dependencies:
-   build/generated/source/buildConfig/debug/czopekonieszczuk/scalatomato/BuildConfig.java -> build/generated/source/buildConfig/debug/czopekonieszczuk/scalatomato/BuildConfig.java
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java
-   src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/TomatoDatabaseHelper.scala
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/User.scala
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala
@@ -174,13 +163,6 @@ source dependencies:
    src/main/java/czopekonieszczuk/scalatomato/databases/UserDatabaseHelper.scala -> src/main/java/czopekonieszczuk/scalatomato/databases/User.scala
 external dependencies:
 class names:
-   build/generated/source/buildConfig/debug/czopekonieszczuk/scalatomato/BuildConfig.java -> czopekonieszczuk.scalatomato.BuildConfig
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$attr
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$dimen
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$drawable
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$raw
-   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$string
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> czopekonieszczuk.scalatomato.activities.DataActivity
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> czopekonieszczuk.scalatomato.activities.DataActivity$$anonfun$1
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> czopekonieszczuk.scalatomato.activities.DataActivity$$anonfun$1$$anon$1
