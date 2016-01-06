@@ -2,6 +2,7 @@ products:
    build/generated/source/buildConfig/debug/czopekonieszczuk/scalatomato/BuildConfig.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/BuildConfig.class
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$attr.class
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$dimen.class
+   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$drawable.class
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$raw.class
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R$string.class
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> build/intermediates/classes/debug/czopekonieszczuk/scalatomato/R.class
@@ -177,6 +178,7 @@ class names:
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$attr
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$dimen
+   build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$drawable
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$raw
    build/generated/source/r/debug/czopekonieszczuk/scalatomato/R.java -> czopekonieszczuk.scalatomato.R$string
    src/main/java/czopekonieszczuk/scalatomato/activities/DataActivity.scala -> czopekonieszczuk.scalatomato.activities.DataActivity

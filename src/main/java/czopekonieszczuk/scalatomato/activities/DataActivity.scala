@@ -15,6 +15,7 @@ class DataActivity extends SActivity {
         userId = extras.getLong("userId")
         Log.d("UserActivity", "userId from LoginActivity: " + userId.toString)
       }
+
       STextView("User name").textSize(30 dip).<<.marginBottom(20 dip).>>
       STextView(getUsername(userId)).textSize(20 dip).<<.marginBottom(30 dip).>>
       STextView("Tomatoes").textSize(30 dip).<<.marginBottom(20 dip).>>
