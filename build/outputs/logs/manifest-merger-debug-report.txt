@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /home/czopo/PROJECTS/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:2:1-27:12
-	xmlns:android
-		ADDED from /home/czopo/PROJECTS/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:2:11-69
 	package
 		ADDED from /home/czopo/PROJECTS/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:3:5-43
 	android:versionName
@@ -13,6 +11,8 @@ ADDED from /home/czopo/PROJECTS/AndroidStudioProjects/ScalaTomato/src/main/Andro
 		ADDED from /home/czopo/PROJECTS/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:4:5-28
 		INJECTED from /home/czopo/PROJECTS/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml
 		INJECTED from /home/czopo/PROJECTS/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/czopo/PROJECTS/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /home/czopo/PROJECTS/AndroidStudioProjects/ScalaTomato/src/main/AndroidManifest.xml:7:1-26:19
 	android:label
